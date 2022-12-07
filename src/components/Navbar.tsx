@@ -5,8 +5,7 @@ import Link from "next/link";
 const Navbar: NextPage = () => {
   return (
     <>
-      {/* Remove text color from nav and control it on the body level */}
-      <nav className="flex h-36 items-center justify-between bg-red-200 py-4 px-10 text-2xl font-medium text-white opacity-60">
+      <nav className="flex h-36 items-center justify-between bg-red-200 py-4 px-10 text-2xl font-medium">
         <div className="flex h-full items-center gap-20 bg-blue-200 pl-11">
           <Link href="/">
             <Image
