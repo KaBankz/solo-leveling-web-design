@@ -11,10 +11,10 @@ const Home: NextPage = () => {
         <meta name="description" content="Solo Leveling" />
         <link rel="icon" href="/favicon.svg" />
       </Head>
-      <div className="flex h-screen flex-col text-white opacity-100">
+      <div className="flex h-screen flex-col text-white">
         <Navbar />
-        <main className="flex flex-grow items-center justify-between bg-orange-200 p-10">
-          <div className="ml-28 max-w-lg bg-blue-200">
+        <main className="flex flex-grow items-center justify-between p-10">
+          <div className="ml-28 max-w-lg">
             <section>
               <div className="mb-28">
                 <h4 className="text-3xl uppercase">S Rank</h4>

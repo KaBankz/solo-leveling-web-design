@@ -15,7 +15,7 @@ const Sidenav: NextPage = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <ul className="mb-20 flex flex-col gap-5 bg-green-200 text-right font-semibold">
+    <ul className="mb-20 flex flex-col gap-5 text-right font-semibold">
       {catagories.map((category, index) => (
         <li
           className={`items-center justify-center align-middle transition-all ease-linear ${

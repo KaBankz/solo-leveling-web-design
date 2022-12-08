@@ -4,8 +4,8 @@ import Link from "next/link";
 
 const Navbar: NextPage = () => {
   return (
-    <nav className="flex h-36 items-center justify-between bg-red-200 py-4 px-10 text-2xl font-medium">
-      <div className="flex h-full items-center gap-20 bg-blue-200 pl-11">
+    <nav className="flex h-36 items-center justify-between py-4 px-10 text-2xl font-medium">
+      <div className="flex h-full items-center gap-20 pl-11">
         <Link href="/">
           <Image
             src="/logo.png"
@@ -19,7 +19,7 @@ const Navbar: NextPage = () => {
         <Link href="/characters">Characters</Link>
         <Link href="/help">Help</Link>
       </div>
-      <div className="flex h-full items-center gap-10 bg-green-200">
+      <div className="flex h-full items-center gap-10">
         <Link href="/login">Sign Up</Link>
         <input
           type="search"
