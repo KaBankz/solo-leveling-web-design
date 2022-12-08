@@ -20,7 +20,6 @@ const Navbar: NextPage = () => {
         <Link href="/help">Help</Link>
       </div>
       <div className="flex h-full items-center gap-10">
-        <Link href="/login">Sign Up</Link>
         <input
           type="search"
           name="search"
