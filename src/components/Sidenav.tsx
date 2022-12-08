@@ -1,36 +1,36 @@
 import { type NextPage } from "next";
+import { useState } from "react";
 
 const Sidenav: NextPage = () => {
+  const catagories = [
+    "About",
+    "Affiliation",
+    "Stats",
+    "Relationships",
+    "Skills",
+    "Troops",
+    "Weapons & EQs",
+  ];
+
+  const [activeIndex, setActiveIndex] = useState(0);
+
   return (
-    <ul className="mb-20 flex flex-col gap-5 bg-green-200 text-right text-xl font-semibold uppercase">
-      <li className="group items-center justify-center align-middle active:text-6xl">
-        <span className="opacity-0 group-active:opacity-100">•</span>
-        <button>About</button>
-      </li>
-      <li className="group items-center justify-center align-middle active:text-6xl">
-        <span className="opacity-0 group-active:opacity-100">•</span>
-        <button>Affiliation</button>
-      </li>
-      <li className="group items-center justify-center align-middle active:text-6xl">
-        <span className="opacity-0 group-active:opacity-100">•</span>
-        <button>Stats</button>
-      </li>
-      <li className="group items-center justify-center align-middle active:text-6xl">
-        <span className="opacity-0 group-active:opacity-100">•</span>
-        <button>Relationships</button>
-      </li>
-      <li className="group items-center justify-center align-middle active:text-6xl">
-        <span className="opacity-0 group-active:opacity-100">•</span>
-        <button>Skills</button>
-      </li>
-      <li className="group items-center justify-center align-middle active:text-6xl">
-        <span className="opacity-0 group-active:opacity-100">•</span>
-        <button>Troops</button>
-      </li>
-      <li className="group items-center justify-center align-middle active:text-6xl">
-        <span className="opacity-0 group-active:opacity-100">•</span>
-        <button>Weapons & EQs</button>
-      </li>
+    <ul className="mb-20 flex flex-col gap-5 bg-green-200 text-right font-semibold">
+      {catagories.map((category, index) => (
+        <li
+          className={`items-center justify-center align-middle transition-all ease-linear ${
+            index === activeIndex ? "text-5xl font-bold" : "text-xl"
+          }`}
+          key={`cat-${index}`}
+        >
+          <span className={index === activeIndex ? "opacity-100" : "opacity-0"}>
+            •
+          </span>
+          <button className="uppercase" onClick={() => setActiveIndex(index)}>
+            {category}
+          </button>
+        </li>
+      ))}
     </ul>
   );
 };
