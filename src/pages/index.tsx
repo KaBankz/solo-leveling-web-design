@@ -17,7 +17,7 @@ const Home: NextPage = () => {
           <div className="ml-28 max-w-lg">
             <section>
               <div className="mb-28">
-                <h4 className="text-3xl uppercase">S Rank</h4>
+                <h4 className="text-3xl uppercase italic">S Rank</h4>
                 <h5 className="text-xl uppercase">Shadow Monarch A.K.A</h5>
                 <h1 className="text-6xl font-bold uppercase">Sung Jin Woo</h1>
                 <h2 className="text-4xl font-bold uppercase">(성진우)</h2>
