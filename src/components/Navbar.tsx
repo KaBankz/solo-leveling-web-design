@@ -25,7 +25,7 @@ const Navbar: NextPage = () => {
           name="search"
           id="search"
           placeholder="🔍 Search Here..."
-          className="w-48 rounded-full bg-gray-900 px-4 py-2 text-sm text-black focus:outline-dotted active:outline-dotted"
+          className="w-48 rounded-full bg-gray-900 px-4 py-2 text-sm focus:outline-dotted active:outline-dotted"
         />
       </div>
     </nav>
