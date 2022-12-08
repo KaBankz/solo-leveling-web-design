@@ -20,10 +20,10 @@ const Home: NextPage = () => {
                 <h4 className="text-3xl uppercase">S Rank</h4>
                 <h5 className="text-xl uppercase">Shadow Monarch A.K.A</h5>
                 <h1 className="text-6xl font-bold uppercase">Sung Jin Woo</h1>
-                <h2 className="text-4xl font-bold uppercase">(KOREAN)</h2>
+                <h2 className="text-4xl font-bold uppercase">(성진우)</h2>
               </div>
               <p>
-                Sung Jin-Woo (KOREAN)
+                Sung Jin-Woo (성진우)
                 <br />
                 is the protagonist of Solo Leveling. He was previously known as
                 the World&apos;s Weakest Hunter and delved down the path of
