@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Navbar: NextPage = () => {
   return (
-    <nav className="flex h-36 items-center justify-between py-4 px-10 text-2xl font-medium">
+    <nav className="flex h-36 items-center justify-between px-10 py-4 text-2xl font-medium">
       <div className="flex h-full items-center gap-20 pl-11">
         <Link href="/">
           <Image

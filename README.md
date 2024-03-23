@@ -4,7 +4,7 @@ This project is a recration of the concept design made by [ShiningMelon](https:/
 
 |Concept Design|My Recreation|
 |---|---|
-|![ShiningMelon's concept design](/public/bg.png)|![My recration](/public/result.png)|
+|![ShiningMelon's concept design](/public/bg.jpeg)|![My recration](/public/result.jpeg)|
 
 ## Notes
 

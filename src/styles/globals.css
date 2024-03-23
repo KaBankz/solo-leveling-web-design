@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 body {
-  /* background-image: url("/bg.png"); */
+  /* background-image: url("/bg.jpeg"); */
   background-image: url("/sparks.png"), url("/sung.png"),
     linear-gradient(rgba(38, 39, 114, 0.9), rgba(38, 39, 114, 0.9)),
-    url("/sung_bg.png");
+    url("/sung_bg.jpeg");
   background-size: cover, contain, cover, cover;
   background-repeat: no-repeat;
   background-position: center, 60%, center, center;
