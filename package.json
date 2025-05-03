@@ -1,6 +1,7 @@
 {
   "name": "solo-leveling",
   "version": "0.1.0",
+  "packageManager": "pnpm@10.9.0",
   "private": true,
   "scripts": {
     "build": "next build",
@@ -10,20 +11,20 @@
   },
   "dependencies": {
     "@vercel/analytics": "^1.2.2",
-    "next": "14.1.4",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "next": "^14.2.28",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "zod": "^3.22.4"
   },
   "devDependencies": {
     "@types/node": "^20.11.30",
-    "@types/react": "^18.2.69",
-    "@types/react-dom": "^18.2.22",
+    "@types/react": "^18.3.20",
+    "@types/react-dom": "^18.3.7",
     "@typescript-eslint/eslint-plugin": "^7.3.1",
     "@typescript-eslint/parser": "^7.3.1",
     "autoprefixer": "^10.4.19",
     "eslint": "^8.57.0",
-    "eslint-config-next": "14.1.4",
+    "eslint-config-next": "^14.2.28",
     "postcss": "^8.4.38",
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.12",
